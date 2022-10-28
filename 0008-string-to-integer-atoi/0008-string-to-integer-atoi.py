@@ -7,10 +7,10 @@ class Solution:
             return 0
         if (s[0]=='+' or s[0]=='-') and len(s)==1:
             return 0
-        if s[0]=='-' and s[1]=='+':
+        
+        if (s[0]=='-' and s[1]=='+') or (s[0]=='+' and s[1]=='-'):
             return 0
-        if s[0]=='+' and s[1]=='-':
-            return 0
+        
         if s[0]=='-':
             symbol=-1
             s=s[1:]
