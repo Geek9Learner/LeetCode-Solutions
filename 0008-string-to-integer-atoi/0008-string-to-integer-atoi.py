@@ -5,7 +5,7 @@ class Solution:
         num=0;s=s.strip();symbol=0
         if s=="":
             return 0
-        if (s[0]=='+' or s[0]=='-') and len(s)==1:
+        if (s=='+' or s=='-'):
             return 0
         
         if (s[0]=='-' and s[1]=='+') or (s[0]=='+' and s[1]=='-'):
