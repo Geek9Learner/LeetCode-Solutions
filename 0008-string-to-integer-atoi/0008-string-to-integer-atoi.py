@@ -15,7 +15,6 @@ class Solution:
             symbol=-1
             s=s[1:]
         if s[0]=='+':
-            symbol=1
             s=s[1:]
         #print(s)
         for i in range(len(s)):
